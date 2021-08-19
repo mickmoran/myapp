@@ -1,0 +1,149 @@
+2021-04-10 12:41:42.290  INFO 19452 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 12:41:47.512  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : Starting MickappApplication using Java 11.0.7 on Michaels-MacBook-Pro.local with PID 19452 (/Users/michaelmoran/IdeaProjects/mickapp/target/classes started by michaelmoran in /Users/michaelmoran/IdeaProjects/mickapp)
+2021-04-10 12:41:47.512  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : No active profile set, falling back to default profiles: default
+2021-04-10 12:41:47.933  INFO 19452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3fc8cbd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-10 12:41:47.939  INFO 19452 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-10 12:41:48.068  INFO 19452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-10 12:41:48.070  INFO 19452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-10 12:41:48.070  INFO 19452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 12:41:48.115  INFO 19452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-10 12:41:48.116  INFO 19452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 595 ms
+2021-04-10 12:41:51.287  INFO 19452 --- [restartedMain] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 3 seconds
+2021-04-10 12:41:51.288  INFO 19452 --- [restartedMain] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in /Users/michaelmoran/IdeaProjects/mickapp folder.
+2021-04-10 12:41:51.302  INFO 19452 --- [restartedMain] dev-updater                              : Visited 86 classes. Took 11 ms.
+2021-04-10 12:41:51.323  INFO 19452 --- [restartedMain] dev-updater                              : Skipping `npm install` because the frontend packages are already installed in the folder '/Users/michaelmoran/IdeaProjects/mickapp/node_modules' and the hash in the file '/Users/michaelmoran/IdeaProjects/mickapp/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-04-10 12:41:51.323  INFO 19452 --- [restartedMain] dev-updater                              : Copying frontend resources from jar files ...
+2021-04-10 12:41:51.357  INFO 19452 --- [restartedMain] dev-updater                              : Visited 12 resources. Took 33 ms.
+2021-04-10 12:41:51.374  INFO 19452 --- [restartedMain] dev-updater                              : No js modules to update '/Users/michaelmoran/IdeaProjects/mickapp/target/frontend/generated-flow-imports.js' file
+2021-04-10 12:41:51.384  INFO 19452 --- [restartedMain] dev-updater                              : Visited 86 classes. Took 9 ms.
+2021-04-10 12:41:51.400  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Skipping `npm install` because the frontend packages are already installed in the folder '/Users/michaelmoran/IdeaProjects/mickapp/node_modules' and the hash in the file '/Users/michaelmoran/IdeaProjects/mickapp/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-04-10 12:41:51.401  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Copying frontend resources from jar files ...
+2021-04-10 12:41:51.424  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Visited 12 resources. Took 23 ms.
+2021-04-10 12:41:51.434  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : No js modules to update '/Users/michaelmoran/IdeaProjects/mickapp/target/frontend/generated-flow-imports.js' file
+2021-04-10 12:41:51.503  INFO 19452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 12:41:51.586  WARN 19452 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-10 12:41:51.659  INFO 19452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-10 12:41:51.669  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2021-04-10 12:41:51.669  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2021-04-10 12:41:51.672  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2021-04-10 12:41:51.674  INFO 19452 --- [restartedMain] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2021-04-10 12:41:51.675  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2021-04-10 12:41:51.676  INFO 19452 --- [restartedMain] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2021-04-10 12:41:51.676  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2021-04-10 12:41:51.676  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2021-04-10 12:41:51.677  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2021-04-10 12:41:51.677  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2021-04-10 12:41:51.677  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2021-04-10 12:41:51.677  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2021-04-10 12:41:51.677  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2021-04-10 12:41:51.678  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2021-04-10 12:41:51.679  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.43 using javax.servlet/3.0 and jsr356/WebSocket API
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2021-04-10 12:41:51.680  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2021-04-10 12:41:51.687  INFO 19452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-10 12:41:51.693  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : Started MickappApplication in 9.263 seconds (JVM running for 90439.317)
+2021-04-10 12:41:51.697  INFO 19452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-10 12:41:53.093  INFO 19452 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 12:41:58.228  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : Starting MickappApplication using Java 11.0.7 on Michaels-MacBook-Pro.local with PID 19452 (/Users/michaelmoran/IdeaProjects/mickapp/target/classes started by michaelmoran in /Users/michaelmoran/IdeaProjects/mickapp)
+2021-04-10 12:41:58.228  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : No active profile set, falling back to default profiles: default
+2021-04-10 12:41:58.395  INFO 19452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3fc8cbd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-10 12:41:58.396  INFO 19452 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-10 12:41:58.444  INFO 19452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-10 12:41:58.445  INFO 19452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-10 12:41:58.445  INFO 19452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 12:41:58.477  INFO 19452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-10 12:41:58.477  INFO 19452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 246 ms
+2021-04-10 12:42:01.003  INFO 19452 --- [restartedMain] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 2 seconds
+2021-04-10 12:42:01.003  INFO 19452 --- [restartedMain] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in /Users/michaelmoran/IdeaProjects/mickapp folder.
+2021-04-10 12:42:01.010  INFO 19452 --- [restartedMain] dev-updater                              : Visited 86 classes. Took 6 ms.
+2021-04-10 12:42:01.021  INFO 19452 --- [restartedMain] dev-updater                              : Skipping `npm install` because the frontend packages are already installed in the folder '/Users/michaelmoran/IdeaProjects/mickapp/node_modules' and the hash in the file '/Users/michaelmoran/IdeaProjects/mickapp/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-04-10 12:42:01.021  INFO 19452 --- [restartedMain] dev-updater                              : Copying frontend resources from jar files ...
+2021-04-10 12:42:01.041  INFO 19452 --- [restartedMain] dev-updater                              : Visited 12 resources. Took 20 ms.
+2021-04-10 12:42:01.050  INFO 19452 --- [restartedMain] dev-updater                              : No js modules to update '/Users/michaelmoran/IdeaProjects/mickapp/target/frontend/generated-flow-imports.js' file
+2021-04-10 12:42:01.057  INFO 19452 --- [restartedMain] dev-updater                              : Visited 86 classes. Took 7 ms.
+2021-04-10 12:42:01.068  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Skipping `npm install` because the frontend packages are already installed in the folder '/Users/michaelmoran/IdeaProjects/mickapp/node_modules' and the hash in the file '/Users/michaelmoran/IdeaProjects/mickapp/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-04-10 12:42:01.069  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Copying frontend resources from jar files ...
+2021-04-10 12:42:01.092  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : Visited 12 resources. Took 22 ms.
+2021-04-10 12:42:01.100  INFO 19452 --- [ForkJoinPool.commonPool-worker-5] dev-updater                              : No js modules to update '/Users/michaelmoran/IdeaProjects/mickapp/target/frontend/generated-flow-imports.js' file
+2021-04-10 12:42:01.130  INFO 19452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 12:42:01.167  WARN 19452 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-10 12:42:01.216  INFO 19452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-10 12:42:01.224  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2021-04-10 12:42:01.224  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2021-04-10 12:42:01.227  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2021-04-10 12:42:01.229  INFO 19452 --- [restartedMain] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2021-04-10 12:42:01.229  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2021-04-10 12:42:01.229  INFO 19452 --- [restartedMain] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2021-04-10 12:42:01.230  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2021-04-10 12:42:01.231  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.43 using javax.servlet/3.0 and jsr356/WebSocket API
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2021-04-10 12:42:01.232  INFO 19452 --- [restartedMain] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2021-04-10 12:42:01.236  INFO 19452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-10 12:42:01.242  INFO 19452 --- [restartedMain] c.mickmproj.mickapp.MickappApplication   : Started MickappApplication in 8.042 seconds (JVM running for 90448.866)
+2021-04-10 12:42:01.244  INFO 19452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-10 12:50:21.391  INFO 19452 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
